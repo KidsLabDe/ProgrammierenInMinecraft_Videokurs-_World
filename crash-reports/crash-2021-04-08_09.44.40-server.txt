@@ -1,0 +1,58 @@
+---- Minecraft Crash Report ----
+// Uh... Did I do that?
+
+Time: 4/8/21 9:44 AM
+Description: Exception in server tick loop
+
+java.lang.NullPointerException: Exception in server tick loop
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:414)
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:47)
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:414)
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:47)
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:414)
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:47)
+	at net.minecraft.nbt.CompressedStreamTools.func_152455_a(CompressedStreamTools.java:132)
+	at net.minecraft.nbt.CompressedStreamTools.func_152456_a(CompressedStreamTools.java:87)
+	at net.minecraft.nbt.CompressedStreamTools.func_74794_a(CompressedStreamTools.java:82)
+	at net.minecraft.world.chunk.storage.AnvilChunkLoader.loadChunk__Async(AnvilChunkLoader.java:92)
+	at net.minecraftforge.common.chunkio.ChunkIOProvider.callStage1(ChunkIOProvider.java:20)
+	at net.minecraftforge.common.chunkio.ChunkIOProvider.callStage1(ChunkIOProvider.java:12)
+	at net.minecraftforge.common.util.AsynchronousExecutor.skipQueue(AsynchronousExecutor.java:343)
+	at net.minecraftforge.common.util.AsynchronousExecutor.getSkipQueue(AsynchronousExecutor.java:302)
+	at net.minecraftforge.common.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:12)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:109)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73158_c(ChunkProviderServer.java:84)
+	at net.minecraft.server.MinecraftServer.func_71222_d(MinecraftServer.java:307)
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:277)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:254)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:441)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.9
+	Operating System: Linux (amd64) version 5.4.0-70-generic
+	Java Version: 1.8.0_282, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Private Build
+	Memory: 672350912 bytes (641 MB) / 870842368 bytes (830 MB) up to 1908932608 bytes (1820 MB)
+	JVM Flags: 2 total; -Xms128M -Xmx2048M
+	IntCache: cache: 1, tcache: 1, allocated: 12, tallocated: 94
+	FML: MCP 9.19 Powered by Forge 11.15.1.1722 8 mods loaded, 8 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAA	FML{8.0.99.99} [Forge Mod Loader] (forge-1.8.9-11.15.1.1722-universal.jar) 
+	UCHIJAA	Forge{11.15.1.1722} [Minecraft Forge] (forge-1.8.9-11.15.1.1722-universal.jar) 
+	UCHIJAA	ComputerCraft{1.79} [ComputerCraft] (ComputerCraftPlusComputerCraftEdu1.79-Deutsch.jar) 
+	UCHIJAA	ComputerCraftEdu{1.79} [ComputerCraftEdu] (ComputerCraftPlusComputerCraftEdu1.79-Deutsch.jar) 
+	UCHIJAA	customnpcs{1.8.9} [CustomNPCs] (CustomNpcs_1.8.9(29oct16).jar) 
+	UCHIJAA	worldedit{6.1.1} [WorldEdit] (worldedit-forge-mc1.8.9-6.1.1.jar) 
+	UCHIJAA	WorldEditCuiFe{1.0.7} [WorldEdit CUI Forge Edition] (WorldEditCuiFe-v1.0.7-mf-1.8.9-11.15.1.1855.jar) 
+	Loaded coremods (and transformers): 
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 20; []
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)
