@@ -1,121 +1,237 @@
-[16:37:26] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[16:37:26] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[16:37:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-2022-01-08 16:37:27,124 WARN Disabling terminal, you're running in an unsupported environment.
-[16:37:27] [main/INFO] [FML]: Forge Mod Loader version 11.15.1.1722 for Minecraft 1.8.9 loading
-[16:37:27] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_312, running on Linux:amd64:5.4.0-92-generic, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[16:37:27] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:37:27] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[16:37:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:37:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:37:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:37:28] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[16:37:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:37:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[16:37:28] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[16:37:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[16:37:28] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[16:37:30] [Server thread/INFO]: Starting minecraft server version 1.8.9
-[16:37:30] [Server thread/INFO] [FML]: MinecraftForge v11.15.1.1722 Initialized
-[16:37:30] [Server thread/INFO] [FML]: Replaced 204 ore recipies
-[16:37:30] [Server thread/INFO] [FML]: Found 0 mods from the command line. Injecting into mod discoverer
-[16:37:30] [Server thread/INFO] [FML]: Searching /opt/mscs/worlds/StreamingKurs/mods for mods
-[16:37:31] [Server thread/INFO] [FML]: Forge Mod Loader has identified 9 mods to load
-[16:37:31] [Server thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, ComputerCraft, ComputerCraftEdu, customnpcs, Dynmap, worldedit, WorldEditCuiFe] at CLIENT
-[16:37:31] [Server thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, ComputerCraft, ComputerCraftEdu, customnpcs, Dynmap, worldedit, WorldEditCuiFe] at SERVER
-[16:37:31] [Server thread/INFO] [Dynmap]: [Dynmap] Mod Support API available
-[16:37:31] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[16:37:31] [Server thread/INFO] [FML]: Found 384 ObjectHolder annotations
-[16:37:31] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[16:37:31] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[16:37:31] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[16:37:31] [Forge Version Check/INFO] [ForgeVersionCheck]: [WorldEditCuiFe] Starting version check at https://raw.githubusercontent.com/hexosse/WorldEditCUI-Forge-Edition/master/update.json
-[16:37:31] [Forge Version Check/INFO] [ForgeVersionCheck]: [WorldEditCuiFe] Found status: BETA Target: null
-[16:37:31] [Forge Version Check/INFO] [ForgeVersionCheck]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[16:37:32][FINE/CustomNPCs][noppes.npcs.LogWriter:71] Sat Jan 08 16:37:32 CET 2022
-[16:37:32][FINE/CustomNPCs][noppes.npcs.controllers.ScriptController:47] Script Engines Available:
-[16:37:33] [Server thread/INFO] [FML]: Applying holder lookups
-[16:37:33] [Server thread/INFO] [FML]: Holder lookups applied
-[16:37:33] [Server thread/INFO] [FML]: Injecting itemstacks
-[16:37:33] [Server thread/INFO] [FML]: Itemstack injection complete
-[16:37:33] [Server thread/INFO]: Loading properties
-[16:37:33] [Server thread/INFO]: Default game type: ADVENTURE
-[16:37:33] [Server thread/INFO]: Generating keypair
-[16:37:33] [Server thread/INFO]: Starting Minecraft server on *:23012
-[16:37:33] [Server thread/INFO]: Using epoll channel type
-[16:37:33] [Server thread/INFO] [FML]: Injecting itemstacks
-[16:37:33] [Server thread/INFO] [FML]: Itemstack injection complete
-[16:37:33] [Server thread/INFO] [worldedit]: WorldEdit for Forge (version 6.1.1) is loaded
-[16:37:33] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 9 mods
-[16:37:33][FINE/CustomNPCs][noppes.npcs.controllers.LinkedNpcController:42] Loading Linked Npcs
-[16:37:33][FINE/CustomNPCs][noppes.npcs.controllers.LinkedNpcController:62] Done loading Linked Npcs
-[16:37:33] [Server thread/INFO]: Preparing level "streamingkurs"
-[16:37:33] [Server thread/INFO] [fml.ModTracker]: This world was saved with mod Dynmap version 3.0-339 and it is now at version 3.0.1-343, things may not work well
-[16:37:33] [Server thread/INFO] [FML]: Injecting existing block and item data into this server instance
-[16:37:33] [Server thread/INFO] [FML]: Applying holder lookups
-[16:37:33] [Server thread/INFO] [FML]: Holder lookups applied
-[16:37:33] [Server thread/INFO] [FML]: Loading dimension 0 (streamingkurs) (net.minecraft.server.dedicated.DedicatedServer@485e807f)
-[16:37:33] [Server thread/INFO] [FML]: Loading dimension 1 (streamingkurs) (net.minecraft.server.dedicated.DedicatedServer@485e807f)
-[16:37:33] [Server thread/INFO] [FML]: Loading dimension -1 (streamingkurs) (net.minecraft.server.dedicated.DedicatedServer@485e807f)
-[16:37:33] [Server thread/INFO]: Preparing start region for level 0
-[16:37:33] [Server thread/INFO]: Done (0.594s)! For help, type "help" or "?"
-[16:37:33][FINE/CustomNPCs][noppes.npcs.controllers.DialogController:33] Loading Dialogs
-[16:37:33][FINE/CustomNPCs][noppes.npcs.controllers.DialogController:35] Done loading Dialogs
-[16:37:34] [Server thread/INFO] [Dynmap]: [Dynmap] Using ops.txt for access control
-[16:37:34] [Server thread/FATAL] [Dynmap]: [Dynmap] Error reading dynmap/markers.yml
-[16:37:34] [Server thread/INFO] [Dynmap]: [Dynmap] Mod Support processing completed
-[16:37:34] [Server thread/INFO] [Dynmap]: [Dynmap] Loaded 25 shaders.
-[16:37:34] [Server thread/INFO] [Dynmap]: [Dynmap] Loaded 82 perspectives.
-[16:37:34] [Server thread/INFO] [Dynmap]: [Dynmap] Loaded 22 lightings.
-[16:37:34] [Server thread/INFO] [Dynmap]: [Dynmap] Starting enter/exit processing
-[16:37:34] [Dynmap Render Thread/INFO] [Dynmap]: [Dynmap] Finish marker initialization
-[16:37:34] [Server thread/INFO] [Dynmap]: [Dynmap] Web server started on address 0.0.0.0:8123
-[16:37:34] [Server thread/INFO] [Dynmap]: [Dynmap] version 3.0.1-343 is enabled - core version 3.0-SNAPSHOT-338
-[16:37:34] [Server thread/INFO] [Dynmap]: [Dynmap] For support, visit https://reddit.com/r/Dynmap
-[16:37:34] [Server thread/INFO] [Dynmap]: [Dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
-[16:37:34] [Server thread/INFO] [Dynmap]: [Dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
-[16:37:34] [Server thread/INFO] [Dynmap]: [Dynmap] Loaded 3 maps of world 'streamingkurs'.
-[16:37:34] [Server thread/INFO] [Dynmap]: [Dynmap] Loaded 2 maps of world 'DIM1'.
-[16:37:34] [Server thread/INFO] [Dynmap]: [Dynmap] Loaded 2 maps of world 'DIM-1'.
-[16:37:34] [Server thread/INFO] [Dynmap]: [Dynmap] Loaded 4 pending tile renders for world 'streamingkurs'
-[16:37:34] [Server thread/INFO] [Dynmap]: [Dynmap] Update render for world 'streamingkurs' restored
-[16:37:34] [Server thread/INFO] [Dynmap]: [Dynmap] Register events
-[16:37:34] [Server thread/INFO] [Dynmap]: [Dynmap] Register commands
-[16:37:34] [Server thread/INFO] [Dynmap]: [Dynmap] Enabled
-[16:37:35] [Dynmap Render Thread/INFO] [Dynmap]: [Dynmap] Loading resource pack standard
-[16:37:40] [Dynmap Render Thread/INFO] [Dynmap]: [Dynmap] Update render of map 'surface' of 'streamingkurs' in progress - 9600 tiles rendered (50.06 msec/tile, 25.66 msec per render)
-[16:37:45] [Dynmap Render Thread/INFO] [Dynmap]: [Dynmap] Update render of map 'surface' of 'streamingkurs' in progress - 9700 tiles rendered (50.06 msec/tile, 24.70 msec per render)
-[16:37:50] [Dynmap Render Thread/INFO] [Dynmap]: [Dynmap] Update render of map 'surface' of 'streamingkurs' in progress - 9800 tiles rendered (50.06 msec/tile, 25.29 msec per render)
-[16:37:55] [Dynmap Render Thread/INFO] [Dynmap]: [Dynmap] Update render of map 'surface' of 'streamingkurs' in progress - 9900 tiles rendered (50.06 msec/tile, 25.11 msec per render)
-[16:38:00] [Dynmap Render Thread/INFO] [Dynmap]: [Dynmap] Update render of map 'surface' of 'streamingkurs' in progress - 10000 tiles rendered (50.06 msec/tile, 25.16 msec per render)
-[16:38:05] [Dynmap Render Thread/INFO] [Dynmap]: [Dynmap] Update render of map 'surface' of 'streamingkurs' in progress - 10100 tiles rendered (50.06 msec/tile, 24.90 msec per render)
-[16:38:10] [Dynmap Render Thread/INFO] [Dynmap]: [Dynmap] Update render of map 'surface' of 'streamingkurs' in progress - 10200 tiles rendered (50.06 msec/tile, 24.78 msec per render)
-[16:38:15] [Dynmap Render Thread/INFO] [Dynmap]: [Dynmap] Update render of map 'surface' of 'streamingkurs' in progress - 10300 tiles rendered (50.06 msec/tile, 24.79 msec per render)
-[16:38:21] [Dynmap Render Thread/INFO] [Dynmap]: [Dynmap] Update render of map 'surface' of 'streamingkurs' in progress - 10400 tiles rendered (50.07 msec/tile, 24.67 msec per render)
-[16:38:26] [Dynmap Render Thread/INFO] [Dynmap]: [Dynmap] Update render of map 'surface' of 'streamingkurs' in progress - 10500 tiles rendered (50.07 msec/tile, 24.55 msec per render)
-[16:38:31] [Dynmap Render Thread/INFO] [Dynmap]: [Dynmap] Update render of map 'surface' of 'streamingkurs' in progress - 10600 tiles rendered (50.07 msec/tile, 24.57 msec per render)
-[16:38:36] [Dynmap Render Thread/INFO] [Dynmap]: [Dynmap] Update render of map 'surface' of 'streamingkurs' in progress - 10700 tiles rendered (50.07 msec/tile, 24.60 msec per render)
-[16:38:41] [Dynmap Render Thread/INFO] [Dynmap]: [Dynmap] Update render of map 'surface' of 'streamingkurs' in progress - 10800 tiles rendered (50.07 msec/tile, 24.76 msec per render)
-[16:38:46] [Dynmap Render Thread/INFO] [Dynmap]: [Dynmap] Update render of map 'surface' of 'streamingkurs' in progress - 10900 tiles rendered (50.07 msec/tile, 24.74 msec per render)
-[16:38:51] [Dynmap Render Thread/INFO] [Dynmap]: [Dynmap] Update render of map 'surface' of 'streamingkurs' in progress - 11000 tiles rendered (50.07 msec/tile, 24.71 msec per render)
-[16:38:51] [Server thread/INFO]: Saving...
-[16:38:51] [Server thread/INFO]: Saved the world
-[16:38:51] [Server thread/INFO]: Turned off world auto-saving
-[16:38:51] [Server thread/INFO]: Stopping the server
-[16:38:51] [Server thread/INFO]: Unknown command. Try /help for a list of commands
-[16:38:51] [Server thread/INFO] [Dynmap]: [Dynmap] Unloaded 11 components.
-[16:38:51] [Server thread/INFO] [Dynmap]: [Dynmap] Stopping map renderer...
-[16:38:52] [Server thread/INFO] [Dynmap]: [Dynmap] Saved 4 pending tile renders in world 'streamingkurs'
-[16:38:52] [Server thread/INFO] [Dynmap]: [Dynmap] Update render job saved for world 'streamingkurs'
-[16:38:57] [Server thread/INFO] [Dynmap]: [Dynmap] Disabled
-[16:38:57] [Server thread/INFO]: Stopping server
-[16:38:57] [Server thread/INFO]: Saving players
-[16:38:57] [Server thread/INFO]: Saving worlds
-[16:38:57] [Server thread/INFO]: Saving chunks for level 'streamingkurs'/Overworld
-[16:38:57] [Server thread/INFO]: Saving chunks for level 'streamingkurs'/Nether
-[16:38:57] [Server thread/INFO]: Saving chunks for level 'streamingkurs'/The End
-[16:38:57] [Server thread/INFO] [FML]: Unloading dimension 0
-[16:38:57] [Server thread/INFO] [FML]: Unloading dimension -1
-[16:38:57] [Server thread/INFO] [FML]: Unloading dimension 1
-[16:38:57] [Server thread/INFO] [FML]: Applying holder lookups
-[16:38:57] [Server thread/INFO] [FML]: Holder lookups applied
+[21:25:28] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[21:25:28] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[21:25:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+2022-01-08 21:25:29,202 WARN Disabling terminal, you're running in an unsupported environment.
+[21:25:29] [main/INFO] [FML]: Forge Mod Loader version 11.15.1.1722 for Minecraft 1.8.9 loading
+[21:25:29] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_312, running on Linux:amd64:5.4.0-92-generic, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[21:25:29] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:25:29] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[21:25:29] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:25:29] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:25:29] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:25:30] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[21:25:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:25:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[21:25:30] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[21:25:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[21:25:30] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[21:25:32] [Server thread/INFO]: Starting minecraft server version 1.8.9
+[21:25:32] [Server thread/INFO] [FML]: MinecraftForge v11.15.1.1722 Initialized
+[21:25:32] [Server thread/INFO] [FML]: Replaced 204 ore recipies
+[21:25:32] [Server thread/INFO] [FML]: Found 0 mods from the command line. Injecting into mod discoverer
+[21:25:32] [Server thread/INFO] [FML]: Searching /opt/mscs/worlds/StreamingKurs/mods for mods
+[21:25:33] [Server thread/INFO] [FML]: Forge Mod Loader has identified 9 mods to load
+[21:25:33] [Server thread/INFO] [FML]: FML has found a non-mod file nashorn.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[21:25:33] [Server thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, ComputerCraft, ComputerCraftEdu, customnpcs, Dynmap, worldedit, WorldEditCuiFe] at CLIENT
+[21:25:33] [Server thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, ComputerCraft, ComputerCraftEdu, customnpcs, Dynmap, worldedit, WorldEditCuiFe] at SERVER
+[21:25:33] [Server thread/INFO] [Dynmap]: [Dynmap] Mod Support API available
+[21:25:33] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[21:25:33] [Server thread/INFO] [FML]: Found 384 ObjectHolder annotations
+[21:25:33] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[21:25:33] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[21:25:33] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[21:25:33] [Forge Version Check/INFO] [ForgeVersionCheck]: [WorldEditCuiFe] Starting version check at https://raw.githubusercontent.com/hexosse/WorldEditCUI-Forge-Edition/master/update.json
+[21:25:33] [Forge Version Check/INFO] [ForgeVersionCheck]: [WorldEditCuiFe] Found status: BETA Target: null
+[21:25:33] [Forge Version Check/INFO] [ForgeVersionCheck]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[21:25:34][FINE/CustomNPCs][noppes.npcs.LogWriter:71] Sat Jan 08 21:25:34 CET 2022
+[21:25:34][FINE/CustomNPCs][noppes.npcs.controllers.ScriptController:47] Script Engines Available:
+[21:25:34] [Server thread/WARN] [FML]: =============================================================
+[21:25:34] [Server thread/WARN] [FML]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[21:25:34] [Server thread/WARN] [FML]: Offendor: jdk/nashorn/internal/objects/Global.exit(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+[21:25:34] [Server thread/WARN] [FML]: Use FMLCommonHandler.exitJava instead
+[21:25:34] [Server thread/WARN] [FML]: =============================================================
+[21:25:34][FINE/CustomNPCs][noppes.npcs.controllers.ScriptController:56] ECMAScript: .js
+[21:25:35] [Server thread/INFO] [FML]: Applying holder lookups
+[21:25:35] [Server thread/INFO] [FML]: Holder lookups applied
+[21:25:35] [Server thread/INFO] [FML]: Injecting itemstacks
+[21:25:35] [Server thread/INFO] [FML]: Itemstack injection complete
+[21:25:35] [Server thread/INFO]: Loading properties
+[21:25:35] [Server thread/INFO]: Default game type: ADVENTURE
+[21:25:35] [Server thread/INFO]: Generating keypair
+[21:25:35] [Server thread/INFO]: Starting Minecraft server on *:23012
+[21:25:35] [Server thread/INFO]: Using epoll channel type
+[21:25:35] [Server thread/INFO] [FML]: Injecting itemstacks
+[21:25:35] [Server thread/INFO] [FML]: Itemstack injection complete
+[21:25:35] [Server thread/INFO] [worldedit]: WorldEdit for Forge (version 6.1.1) is loaded
+[21:25:35] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 9 mods
+[21:25:35][FINE/CustomNPCs][noppes.npcs.controllers.LinkedNpcController:42] Loading Linked Npcs
+[21:25:35][FINE/CustomNPCs][noppes.npcs.controllers.LinkedNpcController:62] Done loading Linked Npcs
+[21:25:36] [Server thread/INFO]: Preparing level "streamingkurs"
+[21:25:36] [Server thread/INFO] [FML]: Injecting existing block and item data into this server instance
+[21:25:36] [Server thread/INFO] [FML]: Applying holder lookups
+[21:25:36] [Server thread/INFO] [FML]: Holder lookups applied
+[21:25:36] [Server thread/INFO] [FML]: Loading dimension 0 (streamingkurs) (net.minecraft.server.dedicated.DedicatedServer@2b0dbc19)
+[21:25:36] [Server thread/INFO] [FML]: Loading dimension 1 (streamingkurs) (net.minecraft.server.dedicated.DedicatedServer@2b0dbc19)
+[21:25:36] [Server thread/INFO] [FML]: Loading dimension -1 (streamingkurs) (net.minecraft.server.dedicated.DedicatedServer@2b0dbc19)
+[21:25:36] [Server thread/INFO]: Preparing start region for level 0
+[21:25:36] [Server thread/INFO]: Done (0.592s)! For help, type "help" or "?"
+[21:25:36][FINE/CustomNPCs][noppes.npcs.controllers.DialogController:33] Loading Dialogs
+[21:25:36][FINE/CustomNPCs][noppes.npcs.controllers.DialogController:35] Done loading Dialogs
+[21:25:36] [Server thread/INFO] [Dynmap]: [Dynmap] Using ops.txt for access control
+[21:25:36] [Server thread/INFO] [Dynmap]: [Dynmap] Mod Support processing completed
+[21:25:36] [Server thread/INFO] [Dynmap]: [Dynmap] Loaded 25 shaders.
+[21:25:36] [Server thread/INFO] [Dynmap]: [Dynmap] Loaded 82 perspectives.
+[21:25:36] [Server thread/INFO] [Dynmap]: [Dynmap] Loaded 22 lightings.
+[21:25:37] [Server thread/INFO] [Dynmap]: [Dynmap] Starting enter/exit processing
+[21:25:37] [Dynmap Render Thread/INFO] [Dynmap]: [Dynmap] Finish marker initialization
+[21:25:37] [Server thread/INFO] [Dynmap]: [Dynmap] Web server started on address 0.0.0.0:8123
+[21:25:37] [Server thread/INFO] [Dynmap]: [Dynmap] version 3.0.1-343 is enabled - core version 3.0-SNAPSHOT-338
+[21:25:37] [Server thread/INFO] [Dynmap]: [Dynmap] For support, visit https://reddit.com/r/Dynmap
+[21:25:37] [Server thread/INFO] [Dynmap]: [Dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[21:25:37] [Server thread/INFO] [Dynmap]: [Dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[21:25:37] [Server thread/INFO] [Dynmap]: [Dynmap] Loaded 3 maps of world 'streamingkurs'.
+[21:25:37] [Server thread/INFO] [Dynmap]: [Dynmap] Loaded 2 maps of world 'DIM1'.
+[21:25:37] [Server thread/INFO] [Dynmap]: [Dynmap] Loaded 2 maps of world 'DIM-1'.
+[21:25:37] [Server thread/INFO] [Dynmap]: [Dynmap] Loaded 4 pending tile renders for world 'streamingkurs'
+[21:25:37] [Server thread/INFO] [Dynmap]: [Dynmap] Register events
+[21:25:37] [Server thread/INFO] [Dynmap]: [Dynmap] Register commands
+[21:25:37] [Server thread/INFO] [Dynmap]: [Dynmap] Enabled
+[21:25:38] [Dynmap Render Thread/INFO] [Dynmap]: [Dynmap] Loading resource pack standard
+[21:25:38] [User Authenticator #1/INFO]: UUID of player KingBBQ42 is ad30957d-9cf3-415f-9c73-7941c821a8e0
+[21:25:38] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
+[21:25:38] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 8 mods : ComputerCraft@1.79,FML@8.0.99.99,ComputerCraftEdu@1.79,customnpcs@1.8.9,worldedit@6.1.1,Forge@11.15.1.2318,mcp@9.19,WorldEditCuiFe@1.0.7
+[21:25:38] [Netty Epoll Server IO #1/INFO] [FML]: Attempting connection with missing mods [Dynmap] at CLIENT
+[21:25:38] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[21:25:38] [Server thread/INFO]: KingBBQ42[/84.128.220.37:40358] logged in with entity id 15 at (-38.964858406545055, 18.0, 2.3856441999040285)
+[21:25:38] [Server thread/INFO]: KingBBQ42 joined the game
+[21:26:06] [Netty Epoll Server IO #1/ERROR] [FML]: NetworkDispatcher exception
+java.io.IOException: Error while read(...): Connection reset by peer
+	at io.netty.channel.epoll.Native.readAddress(Native Method) ~[Native.class:4.0.23.Final]
+	at io.netty.channel.epoll.EpollSocketChannel$EpollSocketUnsafe.doReadBytes(EpollSocketChannel.java:675) [EpollSocketChannel$EpollSocketUnsafe.class:4.0.23.Final]
+	at io.netty.channel.epoll.EpollSocketChannel$EpollSocketUnsafe.epollInReady(EpollSocketChannel.java:714) [EpollSocketChannel$EpollSocketUnsafe.class:4.0.23.Final]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:326) [EpollEventLoop.class:4.0.23.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:264) [EpollEventLoop.class:4.0.23.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) [SingleThreadEventExecutor$2.class:4.0.23.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+[21:26:06] [Server thread/INFO]: KingBBQ42 lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: Error while read(...): Connection reset by peer], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[21:26:06] [Server thread/INFO]: KingBBQ42 left the game
+[21:26:40] [User Authenticator #2/INFO]: UUID of player KingBBQ42 is ad30957d-9cf3-415f-9c73-7941c821a8e0
+[21:26:41] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
+[21:26:41] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 8 mods : ComputerCraft@1.79,FML@8.0.99.99,ComputerCraftEdu@1.79,customnpcs@1.8.9,worldedit@6.1.1,Forge@11.15.1.2318,mcp@9.19,WorldEditCuiFe@1.0.7
+[21:26:41] [Netty Epoll Server IO #2/INFO] [FML]: Attempting connection with missing mods [Dynmap] at CLIENT
+[21:26:41] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[21:26:41] [Server thread/INFO]: KingBBQ42[/84.128.220.37:40360] logged in with entity id 17 at (-38.964858406545055, 18.0, 2.3856441999040285)
+[21:26:41] [Server thread/INFO]: KingBBQ42 joined the game
+[21:33:07] [Server thread/WARN]: KingBBQ42: tried to use custom npcs without a tool in hand, possibly a hacker
+[21:40:12] [Server thread/INFO]: KingBBQ42 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[21:40:12] [Server thread/INFO]: KingBBQ42 left the game
+[21:40:15] [User Authenticator #3/INFO]: UUID of player KingBBQ42 is ad30957d-9cf3-415f-9c73-7941c821a8e0
+[21:40:15] [Netty Epoll Server IO #4/INFO] [FML]: Client protocol version 2
+[21:40:15] [Netty Epoll Server IO #4/INFO] [FML]: Client attempting to join with 8 mods : ComputerCraft@1.79,FML@8.0.99.99,ComputerCraftEdu@1.79,customnpcs@1.8.9,worldedit@6.1.1,Forge@11.15.1.2318,mcp@9.19,WorldEditCuiFe@1.0.7
+[21:40:15] [Netty Epoll Server IO #4/INFO] [FML]: Attempting connection with missing mods [Dynmap] at CLIENT
+[21:40:15] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[21:40:15] [Server thread/INFO]: KingBBQ42[/84.128.220.37:40364] logged in with entity id 42 at (-57.21656085309292, 22.77903433396019, -2.502728386220462)
+[21:40:15] [Server thread/INFO]: KingBBQ42 joined the game
+[21:47:08] [Netty Epoll Server IO #4/ERROR] [FML]: NetworkDispatcher exception
+java.io.IOException: Error while read(...): Connection reset by peer
+	at io.netty.channel.epoll.Native.readAddress(Native Method) ~[Native.class:4.0.23.Final]
+	at io.netty.channel.epoll.EpollSocketChannel$EpollSocketUnsafe.doReadBytes(EpollSocketChannel.java:675) [EpollSocketChannel$EpollSocketUnsafe.class:4.0.23.Final]
+	at io.netty.channel.epoll.EpollSocketChannel$EpollSocketUnsafe.epollInReady(EpollSocketChannel.java:714) [EpollSocketChannel$EpollSocketUnsafe.class:4.0.23.Final]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:326) [EpollEventLoop.class:4.0.23.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:264) [EpollEventLoop.class:4.0.23.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) [SingleThreadEventExecutor$2.class:4.0.23.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+[21:47:08] [Server thread/INFO]: KingBBQ42 lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: Error while read(...): Connection reset by peer], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[21:47:08] [Server thread/INFO]: KingBBQ42 left the game
+[21:47:44] [User Authenticator #4/INFO]: UUID of player KingBBQ42 is ad30957d-9cf3-415f-9c73-7941c821a8e0
+[21:47:44] [Netty Epoll Server IO #5/INFO] [FML]: Client protocol version 2
+[21:47:44] [Netty Epoll Server IO #5/INFO] [FML]: Client attempting to join with 8 mods : ComputerCraft@1.79,FML@8.0.99.99,ComputerCraftEdu@1.79,customnpcs@1.8.9,worldedit@6.1.1,Forge@11.15.1.2318,mcp@9.19,WorldEditCuiFe@1.0.7
+[21:47:44] [Netty Epoll Server IO #5/INFO] [FML]: Attempting connection with missing mods [Dynmap] at CLIENT
+[21:47:44] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[21:47:44] [Server thread/INFO]: KingBBQ42[/84.128.220.37:40368] logged in with entity id 59 at (-148.5232841660709, 22.779054982966787, 12.239736352602666)
+[21:47:44] [Server thread/INFO]: KingBBQ42 joined the game
+[21:52:39] [Server thread/INFO]: KingBBQ42 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[21:52:39] [Server thread/INFO]: KingBBQ42 left the game
+[21:53:04] [User Authenticator #5/INFO]: UUID of player KingBBQ42 is ad30957d-9cf3-415f-9c73-7941c821a8e0
+[21:53:04] [Netty Epoll Server IO #8/INFO] [FML]: Client protocol version 2
+[21:53:04] [Netty Epoll Server IO #8/INFO] [FML]: Client attempting to join with 8 mods : ComputerCraft@1.79,FML@8.0.99.99,ComputerCraftEdu@1.79,customnpcs@1.8.9,worldedit@6.1.1,Forge@11.15.1.2318,mcp@9.19,WorldEditCuiFe@1.0.7
+[21:53:04] [Netty Epoll Server IO #8/INFO] [FML]: Attempting connection with missing mods [Dynmap] at CLIENT
+[21:53:04] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[21:53:04] [Server thread/INFO]: KingBBQ42[/84.128.220.37:40374] logged in with entity id 68 at (-104.25357492062797, 34.760893824428074, 25.150969909414435)
+[21:53:04] [Server thread/INFO]: KingBBQ42 joined the game
+[21:54:58] [Server thread/INFO]: KingBBQ42 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[21:54:58] [Server thread/INFO]: KingBBQ42 left the game
+[22:45:33] [User Authenticator #6/INFO]: UUID of player MatzE_ is 7b943811-4a8c-4c7a-9c30-8126833c5314
+[22:45:34] [Netty Epoll Server IO #11/INFO] [FML]: Client protocol version 2
+[22:45:34] [Netty Epoll Server IO #11/INFO] [FML]: Client attempting to join with 8 mods : ComputerCraft@1.79,FML@8.0.99.99,ComputerCraftEdu@1.79,customnpcs@1.8.9,worldedit@6.1.1,Forge@11.15.1.2318,mcp@9.19,WorldEditCuiFe@1.0.7
+[22:45:34] [Netty Epoll Server IO #11/INFO] [FML]: Attempting connection with missing mods [Dynmap] at CLIENT
+[22:45:34] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[22:45:34] [Server thread/INFO]: MatzE_[/62.216.201.221:49561] logged in with entity id 80 at (-3.8828449738588984, 1.0, 9.608503543508487)
+[22:45:34] [Server thread/INFO]: MatzE_ joined the game
+[22:52:46] [Server thread/INFO]: [MatzE_] item.item.speckledMelon
+[22:52:57] [Server thread/INFO]: [MatzE_] item.item.speckledMelon
+[22:53:05] [Server thread/INFO]: [item.item.speckledMelon] hi
+[23:03:41] [Server thread/INFO]: <MatzE_> scoreboard players set @a[r=2,score_punkte=1] 2
+[23:06:39] [Server thread/INFO]: [@] 1
+[23:06:39] [Server thread/INFO]: [@] 4
+[23:06:39] [Server thread/INFO]: [@] 2
+[23:06:39] [Server thread/INFO]: [@] 3
+[23:06:49] [Server thread/INFO]: [@] 1
+[23:06:49] [Server thread/INFO]: [@] 4
+[23:06:49] [Server thread/INFO]: [@] 2
+[23:06:49] [Server thread/INFO]: [@] 3
+[23:07:32] [Server thread/INFO]: [@] 1
+[23:07:32] [Server thread/INFO]: [@] 4
+[23:07:32] [Server thread/INFO]: [@] 2
+[23:07:32] [Server thread/INFO]: [@] 3
+[23:07:34] [Server thread/INFO]: [@] 1
+[23:07:34] [Server thread/INFO]: [@] 4
+[23:07:34] [Server thread/INFO]: [@] 2
+[23:07:34] [Server thread/INFO]: [@] 3
+[23:07:38] [Server thread/INFO]: [@] 1
+[23:07:38] [Server thread/INFO]: [@] 4
+[23:07:38] [Server thread/INFO]: [@] 2
+[23:07:38] [Server thread/INFO]: [@] 3
+[23:07:45] [Server thread/INFO]: [@] 1
+[23:07:45] [Server thread/INFO]: [@] 4
+[23:07:45] [Server thread/INFO]: [@] 2
+[23:07:45] [Server thread/INFO]: [@] 3
+[23:07:48] [Server thread/INFO]: [@] 1
+[23:07:48] [Server thread/INFO]: [@] 4
+[23:07:48] [Server thread/INFO]: [@] 2
+[23:07:48] [Server thread/INFO]: [@] 3
+[23:11:35] [Server thread/INFO]: [@] 1
+[23:11:35] [Server thread/INFO]: [@] 3
+[23:11:35] [Server thread/INFO]: [@] 2
+[23:25:08] [Server thread/INFO]: MatzE_ lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[23:25:08] [Server thread/INFO]: MatzE_ left the game
+[23:26:37] [User Authenticator #7/INFO]: UUID of player MatzE_ is 7b943811-4a8c-4c7a-9c30-8126833c5314
+[23:26:37] [Netty Epoll Server IO #13/INFO] [FML]: Client protocol version 2
+[23:26:37] [Netty Epoll Server IO #13/INFO] [FML]: Client attempting to join with 8 mods : ComputerCraft@1.79,FML@8.0.99.99,ComputerCraftEdu@1.79,customnpcs@1.8.9,worldedit@6.1.1,Forge@11.15.1.2318,mcp@9.19,WorldEditCuiFe@1.0.7
+[23:26:37] [Netty Epoll Server IO #13/INFO] [FML]: Attempting connection with missing mods [Dynmap] at CLIENT
+[23:26:37] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[23:26:37] [Server thread/INFO]: MatzE_[/62.216.201.221:49573] logged in with entity id 157 at (13.955764209517433, 30.520078606260086, -63.702336020774595)
+[23:26:37] [Server thread/INFO]: MatzE_ joined the game
+[23:30:18] [Server thread/INFO]: [MatzE_] @e[name=Kro
+[23:30:23] [Server thread/INFO]: [MatzE_] Kroetenbuttler and Kroetenbuttler
+[23:30:33] [Server thread/INFO]: [MatzE_] Kroetenbuttler and Kroetenbuttler
+[23:45:30] [Server thread/INFO]: [MatzE_] spawnblau2
+[00:43:33] [Server thread/INFO]: MatzE_ lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[00:43:33] [Server thread/INFO]: MatzE_ left the game
+[10:18:54] [User Authenticator #8/INFO]: UUID of player KingBBQ42 is ad30957d-9cf3-415f-9c73-7941c821a8e0
+[10:18:55] [Netty Epoll Server IO #15/INFO] [FML]: Client protocol version 2
+[10:18:55] [Netty Epoll Server IO #15/INFO] [FML]: Client attempting to join with 8 mods : ComputerCraft@1.79,FML@8.0.99.99,ComputerCraftEdu@1.79,customnpcs@1.8.9,worldedit@6.1.1,Forge@11.15.1.2318,mcp@9.19,WorldEditCuiFe@1.0.7
+[10:18:55] [Netty Epoll Server IO #15/INFO] [FML]: Attempting connection with missing mods [Dynmap] at CLIENT
+[10:18:55] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[10:18:55] [Server thread/INFO]: KingBBQ42[/79.242.158.152:50480] logged in with entity id 396 at (-98.84957156741208, 33.65382190962445, 18.26637775267783)
+[10:18:55] [Server thread/INFO]: KingBBQ42 joined the game
+[10:24:32] [Server thread/INFO]: Saving...
+[10:24:32] [Server thread/INFO]: Saved the world
+[10:24:32] [Server thread/INFO]: Turned off world auto-saving
+[10:24:32] [Server thread/INFO]: Stopping the server
+[10:24:32] [Server thread/INFO]: Unknown command. Try /help for a list of commands
+[10:24:32] [Server thread/INFO] [Dynmap]: [Dynmap] Unloaded 11 components.
+[10:24:32] [Server thread/INFO] [Dynmap]: [Dynmap] Stopping map renderer...
+[10:24:33] [Server thread/INFO] [Dynmap]: [Dynmap] Saved 4 pending tile renders in world 'streamingkurs'
+[10:24:38] [Server thread/INFO] [Dynmap]: [Dynmap] Disabled
+[10:24:38] [Server thread/INFO]: Stopping server
+[10:24:38] [Server thread/INFO]: Saving players
+[10:24:38] [Server thread/INFO]: Saving worlds
+[10:24:38] [Server thread/INFO]: Saving chunks for level 'streamingkurs'/Overworld
+[10:24:38] [Server thread/INFO]: Saving chunks for level 'streamingkurs'/Nether
+[10:24:38] [Server thread/INFO]: Saving chunks for level 'streamingkurs'/The End
+[10:24:40] [Server thread/INFO] [FML]: Unloading dimension 0
+[10:24:40] [Server thread/INFO] [FML]: Unloading dimension -1
+[10:24:40] [Server thread/INFO] [FML]: Unloading dimension 1
+[10:24:40] [Server thread/INFO] [FML]: Applying holder lookups
+[10:24:40] [Server thread/INFO] [FML]: Holder lookups applied

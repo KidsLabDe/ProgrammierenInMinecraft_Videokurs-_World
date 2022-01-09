@@ -1,0 +1,24 @@
+%YAML 1.1
+---
+worlds:
+-   sealevel: 64
+    nether: false
+    name: streamingkurs
+    the_end: false
+    title: streamingkurs/Overworld
+    height: 256
+-   sealevel: 64
+    nether: false
+    name: DIM1
+    the_end: true
+    title: streamingkurs/The End
+    height: 256
+-   sealevel: 64
+    nether: true
+    name: DIM-1
+    the_end: false
+    title: streamingkurs/Nether
+    height: 256
+isMCPC: false
+useSaveFolderAsName: true
+maxWorldHeight: 256
