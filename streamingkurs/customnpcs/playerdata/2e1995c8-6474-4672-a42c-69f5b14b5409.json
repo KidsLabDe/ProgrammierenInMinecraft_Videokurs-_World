@@ -1,0 +1,33 @@
+{
+    "ItemGiverChained": [
+    ],
+    "TransportData": [
+    ],
+    "FactionData": [
+        {
+            "Points": 2000,
+            "Faction": 0
+        }
+    ],
+    "BankData": [
+    ],
+    "ItemGiversList": [
+        {
+            "Long": 1641748079240L,
+            "Slot": 1
+        }
+    ],
+    "MailData": [
+    ],
+    "PlayerName": "KidsLabDe",
+    "QuestData": {
+        "CompletedQuests": [
+        ],
+        "ActiveQuests": [
+        ]
+    },
+    "UUID": "2e1995c8-6474-4672-a42c-69f5b14b5409",
+    "PlayerCompanionId": 0,
+    "DialogData": [
+    ]
+}
