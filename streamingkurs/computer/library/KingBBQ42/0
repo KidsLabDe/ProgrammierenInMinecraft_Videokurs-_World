@@ -1,5 +1,44 @@
 Untitled
 VISUAL
+computercraftedu:setRedstone
+computercraftedu:true
+
+
+
+
+
+
+
+
+
+
+computercraftedu:while
+computercraftedu:inspectDown
+computercraftedu:notEqualTo
+computercraftedu:block "minecraft:brick_block"
+computercraftedu:do
+
+
+
+
+
+
+
+
+computercraftedu:if
+computercraftedu:not
+computercraftedu:moveForward
+computercraftedu:then
+
+
+
+
+
+
+
+
+
+computercraftedu:turnLeft
 
 
 
@@ -11,6 +50,9 @@ VISUAL
 
 
 
+computercraftedu:if
+computercraftedu:detect
+computercraftedu:then
 
 
 
@@ -21,10 +63,40 @@ VISUAL
 
 
 
+computercraftedu:turnLeft
+computercraftedu:turnLeft
 
 
 
 
+
+
+
+
+
+computercraftedu:end
+
+
+
+
+
+
+
+
+
+
+computercraftedu:end
+
+
+
+
+
+
+
+
+
+
+computercraftedu:end
 
 
 
