@@ -1,0 +1,27 @@
+unbenannt2
+VISUAL
+computercraftedu:turnLeft
+computercraftedu:dig
+computercraftedu:moveForward
+computercraftedu:turnLeft
+computercraftedu:repeat
+computercraftedu:number 1999
+computercraftedu:do
+
+
+
+
+
+
+
+
+
+computercraftedu:moveForward
+computercraftedu:digUp
+computercraftedu:moveUp
+
+
+
+
+
+computercraftedu:end
