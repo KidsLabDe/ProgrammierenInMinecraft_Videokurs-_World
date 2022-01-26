@@ -1,3 +1,5 @@
 dynmap/
 logs/
 crash-report/
+logs/
+console.*
