@@ -1,7 +1,7 @@
 grosse_treppe
 VISUAL
 computercraftedu:repeat
-computercraftedu:number 10
+computercraftedu:number 22
 computercraftedu:do
 
 
@@ -14,7 +14,7 @@ computercraftedu:do
 
 
 computercraftedu:repeat
-computercraftedu:number 10
+computercraftedu:number 3
 computercraftedu:do
 
 
