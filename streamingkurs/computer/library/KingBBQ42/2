@@ -1,7 +1,19 @@
 unbenannt
 VISUAL
+computercraftedu:moveForward
+
+
+
+
+
+
+
+
+
+
+
 computercraftedu:repeat
-computercraftedu:number 10
+computercraftedu:number 5
 computercraftedu:do
 
 
@@ -13,7 +25,9 @@ computercraftedu:do
 
 
 
-computercraftedu:place
+computercraftedu:repeat
+computercraftedu:number 12
+computercraftedu:do
 
 
 
@@ -24,9 +38,8 @@ computercraftedu:place
 
 
 
-
-computercraftedu:moveBack
-
+computercraftedu:digDown
+computercraftedu:moveForward
 
 
 
@@ -37,3 +50,98 @@ computercraftedu:moveBack
 
 
 computercraftedu:end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
