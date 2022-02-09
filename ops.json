@@ -22,5 +22,11 @@
     "name": "Kidslab_Regine",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d2e7740e-103b-4d0d-a2c1-89c75a5ba042",
+    "name": "Eteren",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]

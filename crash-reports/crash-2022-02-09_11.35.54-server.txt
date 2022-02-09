@@ -1,0 +1,46 @@
+---- Minecraft Crash Report ----
+// I bet Cylons wouldn't have this problem.
+
+Time: 2/9/22 11:35 AM
+Description: Exception in server tick loop
+
+Missing Mods:
+	FTBL : any
+
+net.minecraftforge.fml.common.MissingModsException: Mod FTBU (FTBUtilities) requires [FTBL]
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:238)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:492)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:87)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:320)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:112)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:441)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.9
+	Operating System: Linux (amd64) version 5.4.0-97-generic
+	Java Version: 1.8.0_312, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Private Build
+	Memory: 3618996328 bytes (3451 MB) / 4031774720 bytes (3845 MB) up to 14913372160 bytes (14222 MB)
+	JVM Flags: 2 total; -Xms4012M -Xmx16000M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.19 Powered by Forge 11.15.1.1722 9 mods loaded, 9 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	U	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	U	FML{8.0.99.99} [Forge Mod Loader] (forge-1.8.9-11.15.1.1722-universal.jar) 
+	U	Forge{11.15.1.1722} [Minecraft Forge] (forge-1.8.9-11.15.1.1722-universal.jar) 
+	U	ComputerCraft{1.79} [ComputerCraft] (ComputerCraftPlusComputerCraftEdu1.79-Deutsch.jar) 
+	U	ComputerCraftEdu{1.79} [ComputerCraftEdu] (ComputerCraftPlusComputerCraftEdu1.79-Deutsch.jar) 
+	U	customnpcs{1.8.9} [CustomNPCs] (CustomNpcs_1.8.9(29oct16).jar) 
+	U	FTBU{2.0.2} [FTBUtilities] (FTBUtilities-1.8.9-2.0.2.jar) 
+	U	worldedit{6.1.1} [WorldEdit] (worldedit-forge-mc1.8.9-6.1.1.jar) 
+	U	WorldEditCuiFe{1.0.7} [WorldEdit CUI Forge Edition] (WorldEditCuiFe-v1.0.7-mf-1.8.9-11.15.1.1855.jar) 
+	Loaded coremods (and transformers): 
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)
