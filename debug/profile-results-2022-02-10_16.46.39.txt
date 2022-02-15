@@ -1,0 +1,114 @@
+---- Minecraft Profiler Results ----
+// Now with less numbers
+
+Time span: 6052 ms
+Tick span: 121 ticks
+// This is approximately 19.99 ticks per second. It should be 20 ticks per second
+
+--- BEGIN PROFILE DUMP ---
+
+[00] levels - 98.57%/98.57%
+[01]  streamingkurs - 99.78%/98.36%
+[02]   tick - 99.67%/98.04%
+[03]    entities - 57.02%/55.90%
+[04]     blockEntities - 72.57%/40.56%
+[04]     regular - 27.18%/15.19%
+[05]      tick - 92.83%/14.10%
+[06]       unspecified - 38.51%/5.43%
+[06]       ai - 32.82%/4.63%
+[07]        newAi - 95.18%/4.41%
+[08]         targetSelector - 33.59%/1.48%
+[09]          goalSetup - 70.58%/1.04%
+[10]           unspecified - 92.95%/0.97%
+[10]           canSee - 7.05%/0.07%
+[09]          unspecified - 27.73%/0.41%
+[09]          goalTick - 1.69%/0.02%
+[08]         unspecified - 23.90%/1.05%
+[08]         goalSelector - 23.15%/1.02%
+[09]          goalSetup - 53.86%/0.55%
+[09]          unspecified - 40.63%/0.41%
+[09]          goalTick - 5.51%/0.06%
+[08]         controls - 15.33%/0.68%
+[09]          unspecified - 81.01%/0.55%
+[09]          look - 10.10%/0.07%
+[09]          move - 4.79%/0.03%
+[09]          jump - 4.10%/0.03%
+[08]         sensing - 1.51%/0.07%
+[08]         checkDespawn - 1.33%/0.06%
+[08]         navigation - 0.61%/0.03%
+[08]         mob tick - 0.57%/0.03%
+[07]        unspecified - 4.82%/0.22%
+[06]       travel - 14.36%/2.03%
+[07]        move - 45.27%/0.92%
+[07]        unspecified - 28.63%/0.58%
+[07]        rest - 26.10%/0.53%
+[06]       entityBaseTick - 5.66%/0.80%
+[07]        unspecified - 92.59%/0.74%
+[07]        portal - 7.41%/0.06%
+[06]       livingEntityBaseTick - 3.74%/0.53%
+[06]       push - 2.38%/0.34%
+[06]       chunkCheck - 0.88%/0.12%
+[06]       mobBaseTick - 0.49%/0.07%
+[06]       headTurn - 0.44%/0.06%
+[06]       rangeChecks - 0.33%/0.05%
+[06]       jump - 0.21%/0.03%
+[06]       looting - 0.18%/0.03%
+[05]      unspecified - 6.73%/1.02%
+[05]      remove - 0.44%/0.07%
+[04]     unspecified - 0.17%/0.09%
+[04]     remove - 0.04%/0.02%
+[04]     pendingBlockEntities - 0.03%/0.02%
+[04]     global - 0.01%/0.01%
+[03]    tickBlocks - 30.04%/29.45%
+[04]     unspecified - 64.72%/19.06%
+[04]     tickBlocks - 9.34%/2.75%
+[04]     getChunk - 8.43%/2.48%
+[04]     moodSound - 5.03%/1.48%
+[04]     iceandsnow - 3.42%/1.01%
+[04]     tickChunk - 3.19%/0.94%
+[04]     thunder - 1.88%/0.55%
+[04]     buildList - 1.74%/0.51%
+[04]     checkLight - 1.46%/0.43%
+[04]     playerCheckLight - 0.80%/0.23%
+[05]      unspecified - 69.08%/0.16%
+[05]      getBrightness - 28.29%/0.07%
+[05]      checkedPosition < toCheckCount - 2.63%/0.01%
+[03]    tickPending - 12.29%/12.05%
+[04]     ticking - 97.61%/11.76%
+[04]     cleaning - 1.63%/0.20%
+[04]     unspecified - 0.76%/0.09%
+[03]    unspecified - 0.32%/0.31%
+[03]    chunkSource - 0.23%/0.22%
+[03]    portalForcer - 0.05%/0.05%
+[03]    mobSpawner - 0.03%/0.03%
+[03]    village - 0.02%/0.02%
+[03]    chunkMap - 0.01%/0.01%
+[02]   tracker - 0.28%/0.28%
+[02]   unspecified - 0.03%/0.03%
+[02]   timeSync - 0.02%/0.02%
+[01]  unspecified - 0.22%/0.21%
+[00] jobs - 0.92%/0.92%
+[01]  unspecified - 58.49%/0.54%
+[01]  entityBaseTick - 15.85%/0.15%
+[02]   unspecified - 87.87%/0.13%
+[02]   portal - 12.13%/0.02%
+[01]  livingEntityBaseTick - 9.49%/0.09%
+[01]  travel - 6.49%/0.06%
+[01]  push - 3.61%/0.03%
+[01]  ai - 3.12%/0.03%
+[02]   newAi - 55.42%/0.02%
+[02]   unspecified - 44.58%/0.01%
+[01]  headTurn - 2.00%/0.02%
+[01]  rangeChecks - 0.67%/0.01%
+[01]  jump - 0.29%/0.00%
+[00] connection - 0.33%/0.33%
+[01]  unspecified - 94.26%/0.31%
+[01]  keepAlive - 5.74%/0.02%
+[00] unspecified - 0.12%/0.12%
+[00] snooper - 0.01%/0.01%
+[00] tickables - 0.01%/0.01%
+[00] tallying - 0.01%/0.01%
+[00] dim_unloading - 0.01%/0.01%
+[00] players - 0.01%/0.01%
+--- END PROFILE DUMP ---
+

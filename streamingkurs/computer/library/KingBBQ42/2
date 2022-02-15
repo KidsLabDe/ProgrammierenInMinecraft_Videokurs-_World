@@ -1,6 +1,20 @@
-unbenannt
+LabyrinthBauer
 VISUAL
-computercraftedu:moveForward
+computercraftedu:variable R
+computercraftedu:equalTo
+computercraftedu:true
+
+
+
+
+
+
+
+
+
+computercraftedu:while
+computercraftedu:true
+computercraftedu:do
 
 
 
@@ -11,12 +25,10 @@ computercraftedu:moveForward
 
 
 
-
-computercraftedu:repeat
+computercraftedu:variable X
+computercraftedu:equalTo
+computercraftedu:randomNumber
 computercraftedu:number 5
-computercraftedu:do
-
-
 
 
 
@@ -26,7 +38,7 @@ computercraftedu:do
 
 
 computercraftedu:repeat
-computercraftedu:number 12
+computercraftedu:variable X
 computercraftedu:do
 
 
@@ -38,10 +50,94 @@ computercraftedu:do
 
 
 
-computercraftedu:digDown
+computercraftedu:if
+computercraftedu:inspect
+computercraftedu:equalTo
+computercraftedu:block "minecraft:glass"
+computercraftedu:then
+
+
+
+
+
+
+
+
+computercraftedu:turnLeft
+computercraftedu:while
+computercraftedu:dig
+computercraftedu:do
 computercraftedu:moveForward
+computercraftedu:end
+computercraftedu:break
 
 
+
+
+computercraftedu:elseIf
+computercraftedu:inspect
+computercraftedu:equalTo
+computercraftedu:block "minecraft:gold_block"
+computercraftedu:then
+
+
+
+
+
+
+
+
+computercraftedu:turnLeft
+
+
+
+
+
+
+
+
+
+
+computercraftedu:elseIf
+computercraftedu:inspect
+computercraftedu:equalTo
+computercraftedu:block "minecraft:iron_block"
+computercraftedu:then
+
+
+
+
+
+
+
+
+computercraftedu:turnRight
+
+
+
+
+
+
+
+
+
+
+computercraftedu:else
+
+
+
+
+
+
+
+
+
+
+
+
+computercraftedu:dig
+computercraftedu:moveForward
+computercraftedu:end
 
 
 
@@ -61,6 +157,22 @@ computercraftedu:end
 
 
 
+computercraftedu:if
+computercraftedu:variable R
+computercraftedu:then
+computercraftedu:turnLeft
+computercraftedu:else
+computercraftedu:turnRight
+computercraftedu:end
+
+
+
+
+
+computercraftedu:variable R
+computercraftedu:equalTo
+computercraftedu:not
+computercraftedu:variable R
 
 
 
@@ -69,58 +181,18 @@ computercraftedu:end
 
 
 
+computercraftedu:if
+computercraftedu:inspectDown
+computercraftedu:equalTo
+computercraftedu:block "minecraft:brick_block"
+computercraftedu:then
+computercraftedu:say
+computercraftedu:string "Fertig!"
+computercraftedu:moveUp 2
+computercraftedu:break
+computercraftedu:end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+computercraftedu:end
 
 
 
