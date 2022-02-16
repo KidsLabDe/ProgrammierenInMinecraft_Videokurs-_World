@@ -1,7 +1,7 @@
 Abbauen
 VISUAL
-computercraftedu:repeat
-computercraftedu:number 10
+computercraftedu:while
+computercraftedu:true
 computercraftedu:do
 
 
@@ -13,8 +13,8 @@ computercraftedu:do
 
 
 
-computercraftedu:digDown
 computercraftedu:moveForward
+computercraftedu:digDown
 
 
 
@@ -25,7 +25,31 @@ computercraftedu:moveForward
 
 
 
+computercraftedu:if
+computercraftedu:inspect
+computercraftedu:equalTo
+computercraftedu:block "minecraft:gold_block"
+computercraftedu:then
 
+
+
+
+
+
+
+
+computercraftedu:turnRight
+computercraftedu:moveForward
+computercraftedu:turnRight
+
+
+
+
+
+
+
+
+computercraftedu:end
 
 
 
@@ -37,3 +61,39 @@ computercraftedu:moveForward
 
 
 computercraftedu:end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

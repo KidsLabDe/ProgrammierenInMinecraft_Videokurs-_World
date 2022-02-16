@@ -2,3 +2,5 @@
 2     CapSchwarzbart       b3185531a824468ba419607a8d52bc8f
 3     MatzE_               7b9438114a8c4c7a9c308126833c5314
 4     Eteren               d2e7740e103b4d0da2c189c75a5ba042
+5     KidsLabOscar         54918092b4b64a9e8cccada79e1b0bee
+6     KidsLabDe            2e1995c864744672a42c69f5b14b5409

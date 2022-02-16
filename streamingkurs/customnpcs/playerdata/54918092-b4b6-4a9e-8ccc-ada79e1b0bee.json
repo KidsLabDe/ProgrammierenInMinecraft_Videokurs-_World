@@ -4,10 +4,18 @@
     "TransportData": [
     ],
     "FactionData": [
+        {
+            "Points": 2000,
+            "Faction": 0
+        }
     ],
     "BankData": [
     ],
     "ItemGiversList": [
+        {
+            "Long": 1644938191686L,
+            "Slot": 32
+        }
     ],
     "MailData": [
     ],
