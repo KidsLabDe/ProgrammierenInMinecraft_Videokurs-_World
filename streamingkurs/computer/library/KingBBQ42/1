@@ -40,6 +40,7 @@ computercraftedu:then
 
 computercraftedu:turnRight
 computercraftedu:moveForward
+computercraftedu:digDown
 computercraftedu:turnRight
 
 
@@ -48,6 +49,41 @@ computercraftedu:turnRight
 
 
 
+computercraftedu:end
+
+
+
+
+
+
+
+
+
+
+
+computercraftedu:if
+computercraftedu:inspect
+computercraftedu:equalTo
+computercraftedu:block "minecraft:iron_block"
+computercraftedu:then
+
+
+
+
+
+
+
+
+computercraftedu:turnLeft
+computercraftedu:moveForward
+computercraftedu:digDown
+computercraftedu:turnLeft
+
+
+
+
+
+
 
 computercraftedu:end
 
@@ -61,18 +97,6 @@ computercraftedu:end
 
 
 computercraftedu:end
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
