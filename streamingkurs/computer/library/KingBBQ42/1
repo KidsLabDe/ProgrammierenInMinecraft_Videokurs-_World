@@ -1,5 +1,17 @@
 Abbauen
 VISUAL
+computercraftedu:setRedstone
+computercraftedu:true
+
+
+
+
+
+
+
+
+
+
 computercraftedu:while
 computercraftedu:true
 computercraftedu:do
@@ -97,18 +109,6 @@ computercraftedu:end
 
 
 computercraftedu:end
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
