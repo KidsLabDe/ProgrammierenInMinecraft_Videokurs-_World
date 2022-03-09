@@ -52,7 +52,8 @@ computercraftedu:then
 
 
 
-computercraftedu:programDisk BaumFaellen
+computercraftedu:dig
+computercraftedu:moveForward
 
 
 
@@ -63,6 +64,10 @@ computercraftedu:programDisk BaumFaellen
 
 
 
+computercraftedu:while
+computercraftedu:digUp
+computercraftedu:do
+computercraftedu:moveUp
 computercraftedu:end
 
 
@@ -71,23 +76,18 @@ computercraftedu:end
 
 
 
-
-
-
+computercraftedu:while
+computercraftedu:not
+computercraftedu:detectDown
+computercraftedu:do
+computercraftedu:moveDown
 computercraftedu:end
 
 
 
-
-
-
-
-
-
-
 computercraftedu:end
-
-
+computercraftedu:end
+computercraftedu:end
 
 
 
