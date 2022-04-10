@@ -1,0 +1,27 @@
+unbenannt2
+VISUAL
+computercraftedu:repeat
+computercraftedu:number 100
+computercraftedu:do
+
+
+
+
+
+
+
+
+
+
+computercraftedu:moveForward
+computercraftedu:placeUp
+
+
+
+
+
+
+
+
+
+computercraftedu:end
