@@ -1,0 +1,27 @@
+unbenannt5
+VISUAL
+computercraftedu:repeat
+computercraftedu:number 5
+computercraftedu:do
+
+
+
+
+
+
+
+
+
+computercraftedu:moveForward
+computercraftedu:placeDown
+computercraftedu:moveForward
+
+
+
+
+
+
+
+
+
+computercraftedu:end

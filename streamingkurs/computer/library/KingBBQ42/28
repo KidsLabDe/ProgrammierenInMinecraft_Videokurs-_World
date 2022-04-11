@@ -1,7 +1,9 @@
 unbenannt2
 VISUAL
-computercraftedu:repeat
-computercraftedu:number 100
+computercraftedu:while
+computercraftedu:inspectDown
+computercraftedu:equalTo
+computercraftedu:block "minecraft:air"
 computercraftedu:do
 
 
@@ -11,10 +13,20 @@ computercraftedu:do
 
 
 
+computercraftedu:placeDown
 
 
-computercraftedu:moveForward
-computercraftedu:placeUp
+
+
+
+
+
+
+
+
+
+
+
 
 
 
