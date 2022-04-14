@@ -1,0 +1,350 @@
+---- Minecraft Crash Report ----
+// Uh... Did I do that?
+
+Time: 14.04.22 15:04
+Description: Watching Server
+
+java.lang.Error
+	at net.minecraft.world.World.func_180500_c(World.java:2890)
+	at net.minecraft.world.World.func_175664_x(World.java:2730)
+	at com.sk89q.worldedit.forge.ForgeWorld.setBlock(ForgeWorld.java:176)
+	at com.sk89q.worldedit.extent.world.FastModeExtent.setBlock(FastModeExtent.java:92)
+	at com.sk89q.worldedit.extent.AbstractDelegateExtent.setBlock(AbstractDelegateExtent.java:78)
+	at com.sk89q.worldedit.extent.world.SurvivalModeExtent.setBlock(SurvivalModeExtent.java:88)
+	at com.sk89q.worldedit.extent.AbstractDelegateExtent.setBlock(AbstractDelegateExtent.java:78)
+	at com.sk89q.worldedit.extent.world.BlockQuirkExtent.setBlock(BlockQuirkExtent.java:64)
+	at com.sk89q.worldedit.extent.AbstractDelegateExtent.setBlock(AbstractDelegateExtent.java:78)
+	at com.sk89q.worldedit.extent.world.ChunkLoadingExtent.setBlock(ChunkLoadingExtent.java:66)
+	at com.sk89q.worldedit.extent.AbstractDelegateExtent.setBlock(AbstractDelegateExtent.java:78)
+	at com.sk89q.worldedit.extent.AbstractDelegateExtent.setBlock(AbstractDelegateExtent.java:78)
+	at com.sk89q.worldedit.extent.validation.DataValidatorExtent.setBlock(DataValidatorExtent.java:67)
+	at com.sk89q.worldedit.extent.AbstractDelegateExtent.setBlock(AbstractDelegateExtent.java:78)
+	at com.sk89q.worldedit.extent.inventory.BlockBagExtent.setBlock(BlockBagExtent.java:111)
+	at com.sk89q.worldedit.function.operation.BlockMapEntryPlacer.resume(BlockMapEntryPlacer.java:59)
+	at com.sk89q.worldedit.function.operation.OperationQueue.resume(OperationQueue.java:89)
+	at com.sk89q.worldedit.function.operation.OperationQueue.resume(OperationQueue.java:89)
+	at com.sk89q.worldedit.function.operation.Operations.completeBlindly(Operations.java:74)
+	at com.sk89q.worldedit.EditSession.flushQueue(EditSession.java:691)
+	at com.sk89q.worldedit.extension.platform.CommandManager.handleCommand(CommandManager.java:303)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sk89q.worldedit.util.eventbus.MethodEventHandler.dispatch(MethodEventHandler.java:58)
+	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:73)
+	at com.sk89q.worldedit.util.eventbus.EventBus.dispatch(EventBus.java:187)
+	at com.sk89q.worldedit.util.eventbus.EventBus.post(EventBus.java:173)
+	at com.sk89q.worldedit.forge.ForgeWorldEdit.onCommandEvent(ForgeWorldEdit.java:145)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_47_ForgeWorldEdit_onCommandEvent_CommandEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:55)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:140)
+	at net.minecraft.command.CommandHandler.func_71556_a(CommandHandler.java:48)
+	at net.minecraft.network.NetHandlerPlayServer.func_147361_d(NetHandlerPlayServer.java:809)
+	at net.minecraft.network.NetHandlerPlayServer.func_147354_a(NetHandlerPlayServer.java:788)
+	at net.minecraft.network.play.client.C01PacketChatMessage.func_148833_a(SourceFile:37)
+	at net.minecraft.network.play.client.C01PacketChatMessage.func_148833_a(SourceFile:9)
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at net.minecraft.util.Util.func_181617_a(SourceFile:44)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:660)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:344)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:605)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:481)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraft.world.World.func_180500_c(World.java:2890)
+	at net.minecraft.world.World.func_175664_x(World.java:2730)
+	at com.sk89q.worldedit.forge.ForgeWorld.setBlock(ForgeWorld.java:176)
+	at com.sk89q.worldedit.extent.world.FastModeExtent.setBlock(FastModeExtent.java:92)
+	at com.sk89q.worldedit.extent.AbstractDelegateExtent.setBlock(AbstractDelegateExtent.java:78)
+	at com.sk89q.worldedit.extent.world.SurvivalModeExtent.setBlock(SurvivalModeExtent.java:88)
+	at com.sk89q.worldedit.extent.AbstractDelegateExtent.setBlock(AbstractDelegateExtent.java:78)
+	at com.sk89q.worldedit.extent.world.BlockQuirkExtent.setBlock(BlockQuirkExtent.java:64)
+	at com.sk89q.worldedit.extent.AbstractDelegateExtent.setBlock(AbstractDelegateExtent.java:78)
+	at com.sk89q.worldedit.extent.world.ChunkLoadingExtent.setBlock(ChunkLoadingExtent.java:66)
+	at com.sk89q.worldedit.extent.AbstractDelegateExtent.setBlock(AbstractDelegateExtent.java:78)
+	at com.sk89q.worldedit.extent.AbstractDelegateExtent.setBlock(AbstractDelegateExtent.java:78)
+	at com.sk89q.worldedit.extent.validation.DataValidatorExtent.setBlock(DataValidatorExtent.java:67)
+	at com.sk89q.worldedit.extent.AbstractDelegateExtent.setBlock(AbstractDelegateExtent.java:78)
+	at com.sk89q.worldedit.extent.inventory.BlockBagExtent.setBlock(BlockBagExtent.java:111)
+	at com.sk89q.worldedit.function.operation.BlockMapEntryPlacer.resume(BlockMapEntryPlacer.java:59)
+	at com.sk89q.worldedit.function.operation.OperationQueue.resume(OperationQueue.java:89)
+	at com.sk89q.worldedit.function.operation.OperationQueue.resume(OperationQueue.java:89)
+	at com.sk89q.worldedit.function.operation.Operations.completeBlindly(Operations.java:74)
+	at com.sk89q.worldedit.EditSession.flushQueue(EditSession.java:691)
+	at com.sk89q.worldedit.extension.platform.CommandManager.handleCommand(CommandManager.java:303)
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sk89q.worldedit.util.eventbus.MethodEventHandler.dispatch(MethodEventHandler.java:58)
+	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:73)
+	at com.sk89q.worldedit.util.eventbus.EventBus.dispatch(EventBus.java:187)
+	at com.sk89q.worldedit.util.eventbus.EventBus.post(EventBus.java:173)
+	at com.sk89q.worldedit.forge.ForgeWorldEdit.onCommandEvent(ForgeWorldEdit.java:145)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_47_ForgeWorldEdit_onCommandEvent_CommandEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:55)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:140)
+	at net.minecraft.command.CommandHandler.func_71556_a(CommandHandler.java:48)
+	at net.minecraft.network.NetHandlerPlayServer.func_147361_d(NetHandlerPlayServer.java:809)
+	at net.minecraft.network.NetHandlerPlayServer.func_147354_a(NetHandlerPlayServer.java:788)
+	at net.minecraft.network.play.client.C01PacketChatMessage.func_148833_a(SourceFile:37)
+	at net.minecraft.network.play.client.C01PacketChatMessage.func_148833_a(SourceFile:9)
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at net.minecraft.util.Util.func_181617_a(SourceFile:44)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:660)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:344)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:605)
+
+-- Thread Dump --
+Details:
+	Threads: "Netty Epoll Server IO #4" Id=29 RUNNABLE
+	at io.netty.channel.epoll.Native.epollWait(Native Method)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:194)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:219)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Netty Epoll Server IO #3" Id=28 RUNNABLE
+	at io.netty.channel.epoll.Native.epollWait(Native Method)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:194)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:219)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"pool-5-thread-1" Id=89 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@23ce847a
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@23ce847a
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1081)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	...
+
+
+"File IO Thread" Id=72 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at net.minecraft.world.storage.ThreadedFileIOBase.func_75736_b(SourceFile:51)
+	at net.minecraft.world.storage.ThreadedFileIOBase.run(SourceFile:30)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Chunk I/O Executor Thread-1" Id=63 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2d096e73
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2d096e73
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Netty Epoll Server IO #2" Id=27 BLOCKED on java.util.ArrayDeque@2936ef0a owned by "Server thread" Id=15
+	at net.minecraft.server.MinecraftServer.func_175586_a(MinecraftServer.java:1351)
+	-  blocked on java.util.ArrayDeque@2936ef0a
+	at net.minecraft.server.MinecraftServer.func_152344_a(MinecraftServer.java:1373)
+	at net.minecraft.world.WorldServer.func_152344_a(WorldServer.java:1149)
+	at net.minecraft.network.PacketThreadUtil.func_180031_a(SourceFile:10)
+	at net.minecraft.network.NetHandlerPlayServer.func_147347_a(NetHandlerPlayServer.java:198)
+	at net.minecraft.network.play.client.C03PacketPlayer.func_148833_a(SourceFile:126)
+	at net.minecraft.network.play.client.C03PacketPlayer.func_148833_a(SourceFile:8)
+	at net.minecraft.network.NetworkManager.channelRead0(NetworkManager.java:151)
+	...
+
+
+"Netty Epoll Server IO #1" Id=26 RUNNABLE
+	at io.netty.channel.epoll.Native.epollWait(Native Method)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:194)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:219)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Coroutine-4" Id=57 TIMED_WAITING on org.luaj.vm2.LuaThread$State@6c346448
+	at java.lang.Object.wait(Native Method)
+	-  waiting on org.luaj.vm2.LuaThread$State@6c346448
+	at org.luaj.vm2.LuaThread$State.lua_yield(Unknown Source)
+	at org.luaj.vm2.LuaThread.yield(Unknown Source)
+	at org.luaj.vm2.lib.CoroutineLib.invoke(Unknown Source)
+	at org.luaj.vm2.lib.VarArgFunction.onInvoke(Unknown Source)
+	at org.luaj.vm2.TailcallVarargs.eval(Unknown Source)
+	at org.luaj.vm2.LuaClosure.invoke(Unknown Source)
+	at org.luaj.vm2.LuaClosure.execute(Unknown Source)
+	...
+
+
+"Coroutine-3" Id=56 TIMED_WAITING on org.luaj.vm2.LuaThread$State@3b0ed0e0
+	at java.lang.Object.wait(Native Method)
+	-  waiting on org.luaj.vm2.LuaThread$State@3b0ed0e0
+	at org.luaj.vm2.LuaThread$State.lua_yield(Unknown Source)
+	at org.luaj.vm2.LuaThread.yield(Unknown Source)
+	at org.luaj.vm2.lib.CoroutineLib.invoke(Unknown Source)
+	at org.luaj.vm2.lib.VarArgFunction.onInvoke(Unknown Source)
+	at org.luaj.vm2.TailcallVarargs.eval(Unknown Source)
+	at org.luaj.vm2.LuaClosure.invoke(Unknown Source)
+	at org.luaj.vm2.LuaClosure.execute(Unknown Source)
+	...
+
+
+"Coroutine-2" Id=55 TIMED_WAITING on org.luaj.vm2.LuaThread$State@5d124b04
+	at java.lang.Object.wait(Native Method)
+	-  waiting on org.luaj.vm2.LuaThread$State@5d124b04
+	at org.luaj.vm2.LuaThread$State.lua_yield(Unknown Source)
+	at org.luaj.vm2.LuaThread.yield(Unknown Source)
+	at org.luaj.vm2.lib.CoroutineLib.invoke(Unknown Source)
+	at org.luaj.vm2.lib.VarArgFunction.onInvoke(Unknown Source)
+	at org.luaj.vm2.TailcallVarargs.eval(Unknown Source)
+	at org.luaj.vm2.LuaClosure.invoke(Unknown Source)
+	at org.luaj.vm2.LuaClosure.execute(Unknown Source)
+	...
+
+
+"Coroutine-1" Id=54 TIMED_WAITING on org.luaj.vm2.LuaThread$State@43c2a113
+	at java.lang.Object.wait(Native Method)
+	-  waiting on org.luaj.vm2.LuaThread$State@43c2a113
+	at org.luaj.vm2.LuaThread$State.lua_yield(Unknown Source)
+	at org.luaj.vm2.LuaThread.yield(Unknown Source)
+	at org.luaj.vm2.lib.CoroutineLib.invoke(Unknown Source)
+	at org.luaj.vm2.lib.VarArgFunction.onInvoke(Unknown Source)
+	at org.luaj.vm2.TailcallVarargs.eval(Unknown Source)
+	at org.luaj.vm2.LuaClosure.invoke(Unknown Source)
+	at org.luaj.vm2.LuaClosure.execute(Unknown Source)
+	...
+
+
+"Computer Dispatch Thread" Id=52 WAITING on java.lang.Object@c1b9b07
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.Object@c1b9b07
+	at java.lang.Object.wait(Object.java:502)
+	at dan200.computercraft.core.computer.ComputerThread$1.run(ComputerThread.java:166)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Server Watchdog" Id=50 RUNNABLE
+	at sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:496)
+	at sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:484)
+	at net.minecraft.server.dedicated.ServerHangWatchdog.run(ServerHangWatchdog.java:46)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Timer-0" Id=49 TIMED_WAITING on java.util.TaskQueue@415fd3b4
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@415fd3b4
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	at java.util.TimerThread.run(Timer.java:505)
+
+
+"Netty Epoll Server IO #0" Id=25 RUNNABLE
+	at io.netty.channel.epoll.Native.epollWait(Native Method)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:194)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:219)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Server console handler" Id=18 RUNNABLE (in native)
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(FileInputStream.java:255)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	-  locked java.io.BufferedInputStream@e5afaf0
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	-  locked java.io.InputStreamReader@58c60811
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	...
+
+
+"DestroyJavaVM" Id=17 RUNNABLE
+
+
+"Server thread" Id=15 RUNNABLE
+	at net.minecraft.world.World.func_180500_c(World.java:2890)
+	at net.minecraft.world.World.func_175664_x(World.java:2730)
+	at com.sk89q.worldedit.forge.ForgeWorld.setBlock(ForgeWorld.java:176)
+	at com.sk89q.worldedit.extent.world.FastModeExtent.setBlock(FastModeExtent.java:92)
+	at com.sk89q.worldedit.extent.AbstractDelegateExtent.setBlock(AbstractDelegateExtent.java:78)
+	at com.sk89q.worldedit.extent.world.SurvivalModeExtent.setBlock(SurvivalModeExtent.java:88)
+	at com.sk89q.worldedit.extent.AbstractDelegateExtent.setBlock(AbstractDelegateExtent.java:78)
+	at com.sk89q.worldedit.extent.world.BlockQuirkExtent.setBlock(BlockQuirkExtent.java:64)
+	...
+
+
+"Server Infinisleeper" Id=14 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:69)
+
+
+"Snooper Timer" Id=13 TIMED_WAITING on java.util.TaskQueue@85563ad
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@85563ad
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	at java.util.TimerThread.run(Timer.java:505)
+
+
+"Signal Dispatcher" Id=4 RUNNABLE
+
+
+"Finalizer" Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@3728d360
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@3728d360
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:165)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:216)
+
+
+"Reference Handler" Id=2 WAITING on java.lang.ref.Reference$Lock@6e7c320f
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.Reference$Lock@6e7c320f
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+	at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+
+
+
+Stacktrace:
+	at net.minecraft.server.dedicated.ServerHangWatchdog.run(ServerHangWatchdog.java:63)
+	at java.lang.Thread.run(Thread.java:748)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.9
+	Operating System: Linux (amd64) version 5.4.0-107-generic
+	Java Version: 1.8.0_312, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Private Build
+	Memory: 1132050632 bytes (1079 MB) / 6540492800 bytes (6237 MB) up to 14913372160 bytes (14222 MB)
+	JVM Flags: 2 total; -Xms4012M -Xmx16000M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.19 Powered by Forge 11.15.1.1722 10 mods loaded, 10 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{8.0.99.99} [Forge Mod Loader] (forge-1.8.9-11.15.1.1722-universal.jar) 
+	UCHIJAAAA	Forge{11.15.1.1722} [Minecraft Forge] (forge-1.8.9-11.15.1.1722-universal.jar) 
+	UCHIJAAAA	ComputerCraft{1.79} [ComputerCraft] (ComputerCraftPlusComputerCraftEdu1.79-Deutsch.jar) 
+	UCHIJAAAA	ComputerCraftEdu{1.79} [ComputerCraftEdu] (ComputerCraftPlusComputerCraftEdu1.79-Deutsch.jar) 
+	UCHIJAAAA	customnpcs{1.8.9} [CustomNPCs] (CustomNpcs_1.8.9(29oct16).jar) 
+	UCHIJAAAA	FTBL{2.0.2} [FTBLib] (FTBLib-1.8.9-2.0.2.jar) 
+	UCHIJAAAA	FTBU{2.0.2} [FTBUtilities] (FTBUtilities-1.8.9-2.0.2.jar) 
+	UCHIJAAAA	worldedit{6.1.1} [WorldEdit] (worldedit-forge-mc1.8.9-6.1.1.jar) 
+	UCHIJAAAA	WorldEditCuiFe{1.0.7} [WorldEdit CUI Forge Edition] (WorldEditCuiFe-v1.0.7-mf-1.8.9-11.15.1.1855.jar) 
+	Loaded coremods (and transformers): 
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 80; [EntityPlayerMP['MatzE_'/99, l='streamingkurs', x=-932,06, y=51,25, z=-348,13]]
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)
