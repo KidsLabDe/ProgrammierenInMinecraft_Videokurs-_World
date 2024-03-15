@@ -1,0 +1,27 @@
+Anfeuern
+VISUAL
+computercraftedu:repeat
+computercraftedu:number 999
+computercraftedu:do
+
+
+
+
+
+
+
+
+
+
+computercraftedu:say
+computercraftedu:string "Len wird Gewinnen"
+
+
+
+
+
+
+
+
+
+computercraftedu:end

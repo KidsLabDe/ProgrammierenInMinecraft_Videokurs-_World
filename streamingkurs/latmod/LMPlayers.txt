@@ -5,3 +5,4 @@
 5     KidsLabOscar         54918092b4b64a9e8cccada79e1b0bee
 6     KidsLabDe            2e1995c864744672a42c69f5b14b5409
 7     Downhillking11       4a324d7ece4f43ec981fda50c0c5fa9c
+8     Kidslab_Regine       ab8bf1caa80c4b658b151e9df0cb58d2

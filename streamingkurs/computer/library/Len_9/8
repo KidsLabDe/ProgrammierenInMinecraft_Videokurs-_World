@@ -1,0 +1,158 @@
+obenRechts
+VISUAL
+computercraftedu:moveForward 4
+computercraftedu:moveUp
+
+
+
+
+
+
+
+
+
+
+computercraftedu:repeat
+computercraftedu:number 38
+computercraftedu:do
+
+
+
+
+
+
+
+
+
+
+computercraftedu:moveForward
+
+
+
+
+
+
+
+
+
+
+computercraftedu:end
+
+computercraftedu:moveForward 7
+computercraftedu:moveDown
+computercraftedu:repeat
+computercraftedu:number 18
+computercraftedu:do
+
+
+
+
+
+
+
+
+
+
+computercraftedu:moveForward
+
+
+
+
+
+
+
+
+
+
+computercraftedu:end
+computercraftedu:moveUp 2
+computercraftedu:moveForward 6
+computercraftedu:turnLeft
+computercraftedu:moveForward 3
+computercraftedu:turnRight
+computercraftedu:moveDown 2
+computercraftedu:moveForward 8
+
+computercraftedu:moveForward
+
+computercraftedu:moveForward
+
+computercraftedu:moveForward 2
+computercraftedu:dig
+computercraftedu:moveForward
+computercraftedu:digUp
+computercraftedu:dig
+computercraftedu:moveForward
+computercraftedu:digUp
+computercraftedu:dig
+computercraftedu:moveForward
+computercraftedu:digUp
+computercraftedu:dig
+computercraftedu:moveForward
+computercraftedu:digUp
+computercraftedu:dig
+computercraftedu:moveForward
+computercraftedu:digUp
+computercraftedu:dig
+computercraftedu:moveForward
+computercraftedu:digUp
+computercraftedu:moveForward 5
+
+
+
+
+
+
+
+computercraftedu:dig
+computercraftedu:moveForward
+computercraftedu:digUp
+computercraftedu:placeDown
+computercraftedu:dig
+computercraftedu:moveForward
+computercraftedu:digUp
+computercraftedu:placeDown
+computercraftedu:dig
+computercraftedu:moveForward
+computercraftedu:digUp
+computercraftedu:placeDown
+computercraftedu:dig
+computercraftedu:moveForward
+computercraftedu:digUp
+computercraftedu:placeDown
+computercraftedu:dig
+computercraftedu:moveForward
+computercraftedu:digUp
+computercraftedu:placeDown
+computercraftedu:dig
+computercraftedu:moveForward
+computercraftedu:digUp
+computercraftedu:placeDown
+computercraftedu:dig
+computercraftedu:moveForward
+computercraftedu:digUp
+computercraftedu:placeDown
+computercraftedu:moveForward 2
+computercraftedu:turnRight
+computercraftedu:moveForward 2
+computercraftedu:turnLeft
+computercraftedu:moveUp
+computercraftedu:turnRight
+computercraftedu:moveForward 3
+computercraftedu:turnRight 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
