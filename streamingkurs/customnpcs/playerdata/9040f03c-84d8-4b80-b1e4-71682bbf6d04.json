@@ -1,0 +1,41 @@
+{
+    "ItemGiverChained": [
+    ],
+    "TransportData": [
+    ],
+    "FactionData": [
+        {
+            "Points": 2000,
+            "Faction": 0
+        }
+    ],
+    "BankData": [
+    ],
+    "ItemGiversList": [
+        {
+            "Long": 1744617678731L,
+            "Slot": 52
+        },
+        {
+            "Long": 1744617715582L,
+            "Slot": 53
+        },
+        {
+            "Long": 1744618258180L,
+            "Slot": 42
+        }
+    ],
+    "MailData": [
+    ],
+    "PlayerName": "Layre",
+    "QuestData": {
+        "CompletedQuests": [
+        ],
+        "ActiveQuests": [
+        ]
+    },
+    "UUID": "9040f03c-84d8-4b80-b1e4-71682bbf6d04",
+    "PlayerCompanionId": 0,
+    "DialogData": [
+    ]
+}
