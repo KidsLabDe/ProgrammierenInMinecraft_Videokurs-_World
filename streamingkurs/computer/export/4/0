@@ -1,0 +1,27 @@
+unbenannt3
+VISUAL
+computercraftedu:repeat
+computercraftedu:number 10
+computercraftedu:do
+
+
+
+
+
+
+
+
+
+
+computercraftedu:moveForward
+computercraftedu:digDown
+computercraftedu:moveDown
+computercraftedu:dig
+
+
+
+
+
+
+
+computercraftedu:end

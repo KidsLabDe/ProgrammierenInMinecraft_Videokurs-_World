@@ -1,0 +1,184 @@
+hintenobenMitte
+VISUAL
+computercraftedu:moveForward 5
+computercraftedu:moveUp
+computercraftedu:repeat
+computercraftedu:number 38
+computercraftedu:do
+
+
+
+
+
+
+
+
+
+
+computercraftedu:moveForward
+
+
+
+
+
+
+
+
+
+
+computercraftedu:end
+computercraftedu:moveUp
+computercraftedu:moveForward 3
+computercraftedu:moveDown 2
+
+computercraftedu:repeat
+computercraftedu:number 22
+computercraftedu:do
+
+
+
+
+
+
+
+
+
+
+computercraftedu:moveForward
+
+
+
+
+
+
+
+
+
+
+computercraftedu:end
+computercraftedu:moveUp
+computercraftedu:moveForward 6
+computercraftedu:turnLeft
+computercraftedu:moveForward 2
+computercraftedu:turnRight
+computercraftedu:moveForward
+computercraftedu:repeat
+computercraftedu:number 33
+computercraftedu:do
+
+
+
+
+
+
+
+
+
+
+computercraftedu:moveForward
+
+
+
+
+
+
+
+
+
+
+computercraftedu:end
+computercraftedu:turnRight
+computercraftedu:moveForward 2
+computercraftedu:turnLeft
+computercraftedu:moveDown
+
+
+
+
+
+computercraftedu:repeat
+computercraftedu:number 13
+computercraftedu:do
+
+
+
+
+
+
+
+
+
+
+computercraftedu:place
+computercraftedu:moveUp
+
+
+
+
+
+
+
+
+
+computercraftedu:end
+
+computercraftedu:moveForward 2
+computercraftedu:moveForward 4
+computercraftedu:moveDown 11
+computercraftedu:moveForward 4
+computercraftedu:moveDown
+
+
+
+
+
+computercraftedu:select
+computercraftedu:number 2
+
+
+
+
+
+
+
+
+
+
+computercraftedu:repeat
+computercraftedu:number 8
+computercraftedu:do
+
+
+
+
+
+
+
+
+
+
+computercraftedu:moveForward
+computercraftedu:placeUp
+
+
+
+
+
+
+
+
+
+computercraftedu:end
+computercraftedu:moveForward
+computercraftedu:moveUp
+
+
+
+
+
+
+
+
+
+computercraftedu:say
+computercraftedu:string "Len gewinnt ez"

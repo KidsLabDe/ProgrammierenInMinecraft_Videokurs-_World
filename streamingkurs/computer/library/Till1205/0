@@ -1,0 +1,30 @@
+Untitled
+VISUAL
+computercraftedu:digUp
+computercraftedu:moveUp
+computercraftedu:place
+
+computercraftedu:moveForward
+computercraftedu:placeUp
+computercraftedu:moveForward
+computercraftedu:placeUp
+computercraftedu:moveForward
+computercraftedu:placeUp
+computercraftedu:moveForward
+computercraftedu:placeUp
+computercraftedu:moveForward
+computercraftedu:placeUp
+
+
+computercraftedu:place
+
+computercraftedu:moveDown 2
+computercraftedu:moveForward 2
+
+
+
+
+
+
+
+computercraftedu:placeUp
