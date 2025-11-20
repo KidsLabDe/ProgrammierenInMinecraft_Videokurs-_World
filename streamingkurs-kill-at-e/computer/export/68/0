@@ -1,0 +1,196 @@
+Speedrun_clear
+VISUAL
+computercraftedu:moveForward 19
+computercraftedu:repeat
+computercraftedu:number 16
+computercraftedu:do
+computercraftedu:placeDown
+computercraftedu:moveForward
+computercraftedu:end
+
+
+
+
+computercraftedu:comment "bruecke bauen"
+computercraftedu:moveForward 8
+computercraftedu:dig
+computercraftedu:moveForward
+computercraftedu:digDown
+
+
+
+
+
+
+
+computercraftedu:comment "wand durchbohren"
+computercraftedu:moveForward 8
+computercraftedu:moveDown
+computercraftedu:repeat
+computercraftedu:number 5
+computercraftedu:do
+computercraftedu:placeDown
+computercraftedu:moveForward
+computercraftedu:moveForward
+computercraftedu:end
+
+
+computercraftedu:comment "Loecher stopfen"
+computercraftedu:moveUp 2
+computercraftedu:moveForward 12
+
+
+
+
+
+
+
+
+
+computercraftedu:comment "zur Sandwand fahren"
+computercraftedu:repeat
+computercraftedu:number 3
+computercraftedu:do
+
+
+
+
+
+
+
+
+computercraftedu:comment "3 mal"
+
+computercraftedu:while
+computercraftedu:detect
+computercraftedu:do
+computercraftedu:dig
+computercraftedu:end
+computercraftedu:moveForward
+
+
+
+
+computercraftedu:comment "allen Sand abbauen"
+computercraftedu:end
+
+
+
+
+
+
+
+
+
+
+
+computercraftedu:moveForward 5
+computercraftedu:placeDown
+computercraftedu:moveForward
+computercraftedu:placeDown
+computercraftedu:digUp
+computercraftedu:moveForward
+computercraftedu:placeDown
+
+
+
+
+computercraftedu:comment "vor und kleine Bruecke"
+computercraftedu:repeat
+computercraftedu:number 24
+computercraftedu:do
+
+
+
+
+
+
+
+
+computercraftedu:comment "24 mal"
+
+computercraftedu:if
+computercraftedu:not
+computercraftedu:moveForward
+computercraftedu:then
+computercraftedu:dig
+computercraftedu:moveForward
+computercraftedu:digUp
+computercraftedu:end
+
+
+computercraftedu:comment "wenn nicht vor, dann graben und vor"
+computercraftedu:end
+
+
+
+
+
+
+
+
+
+
+
+computercraftedu:select
+computercraftedu:number 3
+computercraftedu:repeat
+computercraftedu:number 12
+computercraftedu:do
+computercraftedu:place
+computercraftedu:moveUp
+computercraftedu:end
+
+
+
+computercraftedu:comment "Leiter bauen"
+computercraftedu:while
+computercraftedu:moveForward
+computercraftedu:do
+computercraftedu:end
+
+
+
+
+
+
+
+computercraftedu:comment "solang wie es geht vor"
+computercraftedu:moveDown 9
+computercraftedu:while
+computercraftedu:moveForward
+computercraftedu:do
+computercraftedu:end
+
+
+
+
+
+
+computercraftedu:comment "runter und durch lava"
+computercraftedu:say
+computercraftedu:string "Yesss, Schildkroete durch"
+
+
+
+
+
+
+
+
+
+computercraftedu:comment "Efolg kund geben!"
+
+
+
+
+
+
+
+
+
+
+
+
+
+

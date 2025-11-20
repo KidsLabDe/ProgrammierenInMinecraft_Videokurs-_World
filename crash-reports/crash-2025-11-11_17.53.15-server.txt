@@ -1,0 +1,46 @@
+---- Minecraft Crash Report ----
+// But it works on my machine.
+
+Time: 11/11/25 5:53 PM
+Description: Exception in server tick loop
+
+java.lang.RuntimeException: Failed to check session lock, aborting
+	at net.minecraft.world.storage.SaveHandler.func_75766_h(SaveHandler.java:64)
+	at net.minecraft.world.storage.SaveHandler.<init>(SaveHandler.java:42)
+	at net.minecraft.world.chunk.storage.AnvilSaveHandler.<init>(AnvilSaveHandler.java:16)
+	at net.minecraft.world.chunk.storage.AnvilSaveConverter.func_75804_a(SourceFile:78)
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:231)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:254)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:441)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.9
+	Operating System: Linux (amd64) version 5.15.0-143-generic
+	Java Version: 1.8.0_462, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Private Build
+	Memory: 2861054936 bytes (2728 MB) / 4031774720 bytes (3845 MB) up to 14913372160 bytes (14222 MB)
+	JVM Flags: 2 total; -Xms4012M -Xmx16000M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.19 Powered by Forge 11.15.1.1722 10 mods loaded, 10 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAA	FML{8.0.99.99} [Forge Mod Loader] (forge-1.8.9-11.15.1.1722-universal.jar) 
+	UCHIJAA	Forge{11.15.1.1722} [Minecraft Forge] (forge-1.8.9-11.15.1.1722-universal.jar) 
+	UCHIJAA	ComputerCraft{1.79} [ComputerCraft] (ComputerCraftPlusComputerCraftEdu1.79-Deutsch.jar) 
+	UCHIJAA	ComputerCraftEdu{1.79} [ComputerCraftEdu] (ComputerCraftPlusComputerCraftEdu1.79-Deutsch.jar) 
+	UCHIJAA	customnpcs{1.8.9} [CustomNPCs] (CustomNpcs_1.8.9(29oct16).jar) 
+	UCHIJAA	FTBL{2.0.2} [FTBLib] (FTBLib-1.8.9-2.0.2.jar) 
+	UCHIJAA	FTBU{2.0.2} [FTBUtilities] (FTBUtilities-1.8.9-2.0.2.jar) 
+	UCHIJAA	worldedit{6.1.1} [WorldEdit] (worldedit-forge-mc1.8.9-6.1.1.jar) 
+	UCHIJAA	WorldEditCuiFe{1.0.7} [WorldEdit CUI Forge Edition] (WorldEditCuiFe-v1.0.7-mf-1.8.9-11.15.1.1855.jar) 
+	Loaded coremods (and transformers): 
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 80; []
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

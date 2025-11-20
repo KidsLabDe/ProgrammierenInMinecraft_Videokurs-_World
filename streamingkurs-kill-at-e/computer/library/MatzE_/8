@@ -1,0 +1,55 @@
+unbenannt
+VISUAL
+computercraftedu:say
+computercraftedu:inspectDown
+
+
+
+
+
+
+
+
+
+
+computercraftedu:say
+computercraftedu:string "Hallo Forscher!"
+
+
+
+
+
+
+
+
+
+
+computercraftedu:variable X
+computercraftedu:equalTo
+computercraftedu:string "Hello World!"
+
+
+
+
+
+
+
+
+
+computercraftedu:variable y
+computercraftedu:equalTo
+computercraftedu:string "Hallo Forscher!d"
+
+
+
+
+
+
+
+
+
+computercraftedu:variable z
+computercraftedu:equalTo
+computercraftedu:variable X
+computercraftedu:plus
+computercraftedu:variable y
